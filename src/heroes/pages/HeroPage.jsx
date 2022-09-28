@@ -24,7 +24,7 @@ export const HeroPage = () => {
     <div className="row mt-5 animate__animated animate__fadeInUp animate__faster">
       <div className="col-4">
         <img 
-          src={window.location.origin +`/assets/heroes/${ id }.jpg`} 
+          src={window.location.origin +`spa_heroes/assets/heroes/${ id }.jpg`} 
           alt={ hero.superhero }
           className="img-thumbnail" />
       </div>
