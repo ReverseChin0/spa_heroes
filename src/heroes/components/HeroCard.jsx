@@ -5,14 +5,6 @@ const CharactersByHero = ({ alter_ego,characters }) => {
     return <p>{ characters }</p>;
 }
 
-// function importAll(r) {
-// 	let images = {};
-//   r.keys().forEach((item, index) => { images[item.replace('./', '')] = r(item); });
-// 	return images
-// }
-
-// const images = importAll(require.context('./src/assets/heroes/', false, /\.(png|jpe?g|svg)$/).default);
-
 export const HeroCard = ({
     id,
     superhero,
