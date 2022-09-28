@@ -14,7 +14,7 @@ export const LoginPage = () => {
     
     login( 'Francisco Castañeda' );
 
-    navigate( '/marvel' , {
+    navigate( lastPath , {
         replace: true
     });
   }
